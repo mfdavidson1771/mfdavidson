@@ -3,7 +3,7 @@ import heroImage from "@/assets/hero-classical-arts.jpg";
 const Hero = () => {
   return (
     <section className="relative w-full">
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-6 py-8">
         <div className="relative rounded-lg overflow-hidden shadow-lg">
           <img 
             src={heroImage}
