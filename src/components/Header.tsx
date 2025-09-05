@@ -29,8 +29,11 @@ const Header = () => {
             variant="secondary" 
             size="sm"
             className="bg-primary text-primary-foreground hover:bg-primary/90"
+            asChild
           >
-            Subscribe
+            <a href="https://mfdavidson.substack.com/" target="_blank" rel="noopener noreferrer">
+              Subscribe
+            </a>
           </Button>
         </nav>
       </div>
