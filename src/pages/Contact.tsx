@@ -78,95 +78,55 @@ const Contact = () => {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">Thank you for contacting me. I welcome your inquiries.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-16">
-            {/* Contact Information */}
-            <div className="space-y-8">
-              <div>
-                <h2 className="text-2xl font-display font-semibold text-foreground mb-6">
-                  Get in Touch
-                </h2>
+          {/* Contact Form - Centered */}
+          <div className="max-w-md mx-auto">
+            <Form {...form}>
+              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                <FormField control={form.control} name="name" render={({
+                field
+              }) => <FormItem>
+                      <FormLabel>Name</FormLabel>
+                      <FormControl>
+                        <Input placeholder="Your full name" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>} />
                 
-                <div className="space-y-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
-                      <div className="w-2 h-2 rounded-full bg-primary"></div>
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-foreground mb-1">Email</h3>
-                      <p className="text-muted-foreground">mark@mfdavidson.com</p>
-                    </div>
-                  </div>
-                  
-                  
-                  
-                  <div className="flex items-start space-x-4">
-                    <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
-                      <div className="w-2 h-2 rounded-full bg-primary"></div>
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-foreground mb-1">Response Time</h3>
-                      <p className="text-muted-foreground">Typically within 48 hours</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-6 bg-muted/50 rounded-lg border">
-                <h3 className="font-display font-semibold text-foreground mb-3">Inquiries</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">Please feel free to reach out to me!</p>
-              </div>
-            </div>
-
-            {/* Contact Form */}
-            <div>
-              <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                  <FormField control={form.control} name="name" render={({
-                  field
-                }) => <FormItem>
-                        <FormLabel>Name</FormLabel>
-                        <FormControl>
-                          <Input placeholder="Your full name" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>} />
-                  
-                  <FormField control={form.control} name="email" render={({
-                  field
-                }) => <FormItem>
-                        <FormLabel>Email</FormLabel>
-                        <FormControl>
-                          <Input placeholder="your.email@example.com" type="email" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>} />
-                  
-                  <FormField control={form.control} name="subject" render={({
-                  field
-                }) => <FormItem>
-                        <FormLabel>Subject</FormLabel>
-                        <FormControl>
-                          <Input placeholder="Brief subject of your inquiry" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>} />
-                  
-                  <FormField control={form.control} name="message" render={({
-                  field
-                }) => <FormItem>
-                        <FormLabel>Message</FormLabel>
-                        <FormControl>
-                          <Textarea placeholder="Please provide details about your inquiry..." className="min-h-[120px]" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>} />
-                  
-                  <Button type="submit" className="w-full" disabled={isSubmitting}>
-                    {isSubmitting ? "Sending..." : "Send Message"}
-                  </Button>
-                </form>
-              </Form>
-            </div>
+                <FormField control={form.control} name="email" render={({
+                field
+              }) => <FormItem>
+                      <FormLabel>Email</FormLabel>
+                      <FormControl>
+                        <Input placeholder="your.email@example.com" type="email" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>} />
+                
+                <FormField control={form.control} name="subject" render={({
+                field
+              }) => <FormItem>
+                      <FormLabel>Subject</FormLabel>
+                      <FormControl>
+                        <Input placeholder="Brief subject of your inquiry" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>} />
+                
+                <FormField control={form.control} name="message" render={({
+                field
+              }) => <FormItem>
+                      <FormLabel>Message</FormLabel>
+                      <FormControl>
+                        <Textarea placeholder="Please provide details about your inquiry..." className="min-h-[120px]" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>} />
+                
+                <Button type="submit" className="w-full" disabled={isSubmitting}>
+                  {isSubmitting ? "Sending..." : "Send Message"}
+                </Button>
+              </form>
+            </Form>
           </div>
         </div>
       </main>
