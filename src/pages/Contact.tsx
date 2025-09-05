@@ -97,15 +97,7 @@ const Contact = () => {
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-4">
-                    <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
-                      <div className="w-2 h-2 rounded-full bg-primary"></div>
-                    </div>
-                    <div>
-                      <h3 className="font-medium text-foreground mb-1">Office Hours</h3>
-                      <p className="text-muted-foreground">Monday - Friday, 9:00 AM - 5:00 PM</p>
-                    </div>
-                  </div>
+                  
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center mt-1">
