@@ -18,7 +18,7 @@ const Header = () => {
             CV
           </a>
           <a 
-            href="#" 
+            href="/contact" 
             className="text-sm font-medium text-foreground hover:text-primary transition-colors"
           >
             Contact
