@@ -9,7 +9,7 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Elegant cream and warm neutrals inspired by classical manuscripts */
-    --background: 45 25% 97%;
+    --background: 0 0% 100%;
     --foreground: 24 9% 20%;
 
     --card: 45 25% 97%;
