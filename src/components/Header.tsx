@@ -12,7 +12,9 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center space-x-8">
           <a 
-            href="#" 
+            href="/cv.pdf" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium text-foreground hover:text-primary transition-colors"
           >
             CV
