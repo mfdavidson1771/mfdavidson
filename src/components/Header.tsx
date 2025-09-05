@@ -12,7 +12,7 @@ const Header = () => {
         
         <nav className="hidden md:flex items-center space-x-8">
           <a 
-            href="/cv.pdf" 
+            href="https://drive.google.com/file/d/1QzhDCYZe24YIdsRYns5-Ba2smpISF896/view" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-foreground hover:text-primary transition-colors"
