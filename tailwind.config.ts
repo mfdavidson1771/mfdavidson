@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Crimson Text', 'serif'],
+				body: ['Source Sans Pro', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +56,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				classical: {
+					gold: 'hsl(var(--classical-gold))',
+					warm: 'hsl(var(--classical-warm))',
+				},
+				scholarly: 'hsl(var(--scholarly-text))',
+				quote: 'hsl(var(--quote-emphasis))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
