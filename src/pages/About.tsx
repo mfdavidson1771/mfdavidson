@@ -19,7 +19,9 @@ const About = () => {
           <div className="prose prose-lg max-w-none">
             <div className="grid md:grid-cols-2 gap-12 mb-16">
               <div>
-                <h2 className="text-2xl font-display text-scholarly mb-6">Faith</h2>
+                <h2 className="text-2xl font-display text-scholarly mb-6">Faith
+
+Text here</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">Text here</p>
                 
               </div>
