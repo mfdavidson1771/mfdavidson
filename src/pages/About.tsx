@@ -18,7 +18,7 @@ const About = () => {
           <div className="prose prose-lg max-w-none">
             <div className="grid md:grid-cols-2 gap-12 mb-16">
               <div>
-                <h2 className="text-2xl font-display text-scholarly mb-6">A Scholar's Journey</h2>
+                <h2 className="text-2xl font-display text-scholarly mb-6">Faith</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Mark F. Davidson's intellectual journey spans continents and disciplines, from the hallowed halls of Oxford 
                   University to the vibrant academic communities of New England. With dual Master's degrees—one in Philosophy, 
