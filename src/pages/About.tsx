@@ -29,7 +29,7 @@ Text here</h2>
               <div>
                 <h2 className="text-2xl font-display text-scholarly mb-6">Reason</h2>
                 
-                <p className="text-muted-foreground leading-relaxed">Text here</p>
+                <p className="text-muted-foreground leading-relaxed">Text</p>
               </div>
             </div>
 
