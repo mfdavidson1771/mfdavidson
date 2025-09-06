@@ -22,7 +22,7 @@ const About = () => {
                 <h2 className="text-2xl font-display text-scholarly mb-6">Faith
 
 Text here</h2>
-                <p className="text-muted-foreground leading-relaxed mb-4">Text here</p>
+                <p className="text-muted-foreground leading-relaxed mb-4">Faith</p>
                 
               </div>
               
