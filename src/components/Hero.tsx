@@ -1,4 +1,6 @@
 import heroImage from "@/assets/hero-classical-arts.jpg";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -19,6 +21,12 @@ const Hero = () => {
           <cite className="block mt-6 text-lg font-medium text-scholarly not-italic">
             — Stephen Fry
           </cite>
+          
+          <div className="mt-8">
+            <Button asChild variant="outline">
+              <Link to="/about-draft">View About Page (Draft)</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
