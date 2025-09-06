@@ -68,7 +68,7 @@ const Footer = () => {
               className="text-muted-foreground hover:text-foreground p-0 h-auto"
               asChild
             >
-              <a href="#">Privacy Policy</a>
+              <a href="/privacy">Privacy Policy</a>
             </Button>
           </div>
         </div>
