@@ -17,6 +17,12 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <a 
+            href="/about" 
+            className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+          >
+            About
+          </a>
+          <a 
             href="https://drive.google.com/file/d/1QzhDCYZe24YIdsRYns5-Ba2smpISF896/view" 
             target="_blank"
             rel="noopener noreferrer"
@@ -56,6 +62,13 @@ const Header = () => {
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-border bg-background/95 backdrop-blur">
           <nav className="container mx-auto px-6 py-4 space-y-4">
+            <a 
+              href="/about" 
+              className="block text-sm font-medium text-foreground hover:text-primary transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              About
+            </a>
             <a 
               href="https://drive.google.com/file/d/1QzhDCYZe24YIdsRYns5-Ba2smpISF896/view" 
               target="_blank"
