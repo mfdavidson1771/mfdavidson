@@ -23,7 +23,7 @@ const Header = () => {
             About
           </a>
           <a 
-            href="https://drive.google.com/file/d/1QzhDCYZe24YIdsRYns5-Ba2smpISF896/view" 
+            href="https://drive.google.com/file/d/1KKRomT0zu5e0agzhbcTEvvkGVm3aOi_U/view?usp=drive_link" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-foreground hover:text-primary transition-colors"
@@ -70,7 +70,7 @@ const Header = () => {
               About
             </a>
             <a 
-              href="https://drive.google.com/file/d/1QzhDCYZe24YIdsRYns5-Ba2smpISF896/view" 
+              href="https://drive.google.com/file/d/1KKRomT0zu5e0agzhbcTEvvkGVm3aOi_U/view?usp=drive_link" 
               target="_blank"
               rel="noopener noreferrer"
               className="block text-sm font-medium text-foreground hover:text-primary transition-colors"
