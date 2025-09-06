@@ -35,9 +35,7 @@ const About = () => {
               <div>
                 <h2 className="text-2xl font-display text-scholarly mb-6">Educator & Mentor</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Mark's passion for teaching has taken him from university lecture halls to preparatory school classrooms. 
-                  As adjunct faculty at the University of New Haven, he guided students through the foundational questions 
-                  of philosophy—from ancient wisdom to medieval thought and contemporary ethics.
+                  Reason
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   At St. John's Preparatory School, he developed innovative courses in Ethics, Relational Dynamics, 
