@@ -28,16 +28,6 @@ const NotFound = () => {
             <h2 className="text-2xl md:text-3xl font-display text-scholarly">
               Page Not Found
             </h2>
-            <blockquote className="text-lg md:text-xl font-display leading-relaxed text-quote italic">
-              "The art of being wise is knowing what to overlook."
-            </blockquote>
-            <cite className="block text-base text-scholarly not-italic">
-              — William James
-            </cite>
-            <p className="text-muted-foreground max-w-md mx-auto">
-              The page you're looking for seems to have wandered off into the classical ether. 
-              Perhaps it's time to return to more familiar territory.
-            </p>
           </div>
 
           <div className="space-y-4">
