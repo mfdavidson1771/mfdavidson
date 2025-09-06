@@ -12,7 +12,7 @@ const Hero = () => {
           />
         </div>
         
-        <div className="mt-16 mb-8 text-center max-w-4xl mx-auto">
+        <div className="mt-16 text-center max-w-4xl mx-auto">
           <blockquote className="text-2xl md:text-3xl font-display leading-relaxed text-quote italic">
             "Oscar said, 'I take that to mean the ability to play gracefully with ideas.' I think that's disappearing from our culture."
           </blockquote>
