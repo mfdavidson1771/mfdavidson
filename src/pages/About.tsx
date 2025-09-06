@@ -11,7 +11,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-display text-scholarly mb-6">Mark F. Davidson, MA (Oxon)</h1>
             <div className="w-24 h-px bg-classical-gold mx-auto mb-8"></div>
-            <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto text-base">τὰ πάντα ἐν αὐτῷ συνέστηκεν
+            <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto text-lg">τὰ πάντα ἐν αὐτῷ συνέστηκεν
           </p>
           </div>
 
