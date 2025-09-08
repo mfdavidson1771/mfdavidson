@@ -15,6 +15,17 @@ const About = () => {
           </p>
           </div>
 
+          {/* New Section */}
+          <div className="bg-secondary/50 rounded-lg p-8 mb-16">
+            <h2 className="text-2xl font-display text-scholarly mb-6 text-center">Section Title</h2>
+            <p className="text-muted-foreground leading-relaxed mb-4 text-center max-w-3xl mx-auto">
+              Add your content here
+            </p>
+            <p className="text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto">
+              Additional content
+            </p>
+          </div>
+
           {/* Main Content */}
           <div className="prose prose-lg max-w-none">
             <div className="grid md:grid-cols-2 gap-12 mb-16">
