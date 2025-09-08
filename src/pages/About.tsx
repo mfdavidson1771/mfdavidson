@@ -45,7 +45,7 @@ const AboutContent = () => {
             </div>
 
             <div className="bg-secondary/50 rounded-lg p-8 mb-16">
-              <h2 className="text-2xl font-display text-scholarly mb-6 text-center">Fides quaerens intellectum</h2>
+              <h2 className="text-2xl font-display text-scholarly mb-6 text-center italic">Fides quaerens intellectum</h2>
               <p className="text-muted-foreground leading-relaxed mb-4 text-center max-w-3xl mx-auto">
             </p>
               <p className="text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto">
