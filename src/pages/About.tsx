@@ -2,7 +2,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-const About = () => {
+import HostGate from "@/components/HostGate";
+import NotFound from "./NotFound";
+const AboutContent = () => {
   return <div className="min-h-screen bg-background">
       <Header />
       <main className="container mx-auto px-6 py-16">
@@ -61,4 +63,11 @@ Text here</h2>
       <Footer />
     </div>;
 };
+
+const About = () => (
+  <HostGate allow={['mfdavidson.lovable.app']} fallback={<NotFound />}>
+    <AboutContent />
+  </HostGate>
+);
+
 export default About;
