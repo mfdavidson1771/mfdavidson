@@ -1,11 +1,18 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import HostGate from "@/components/HostGate";
 import NotFound from "./NotFound";
 const AboutContent = () => {
   return <div className="min-h-screen bg-background">
+      <SEO 
+        title="About Mark F. Davidson, MA (Oxon) - Scholar & Writer"
+        description="Learn about Mark F. Davidson, Oxford-educated scholar exploring the intersection of faith and reason. Biography, credentials, and philosophical approach."
+        keywords="Mark F Davidson, Oxford scholar, MA Oxon, philosophy, theology, faith and reason, classical education"
+        type="article"
+      />
       <Header />
       <main className="container mx-auto px-6 py-16">
         <div className="max-w-4xl mx-auto">
@@ -61,7 +68,7 @@ const AboutContent = () => {
       <Footer />
     </div>;
 };
-const About = () => <HostGate allow={['mfdavidson.lovable.app']} fallback={<NotFound />}>
+const About = () => <HostGate allow={['mfdavidson.lovable.app', 'mfdavidson.com', 'www.mfdavidson.com']} fallback={<NotFound />}>
     <AboutContent />
   </HostGate>;
 export default About;

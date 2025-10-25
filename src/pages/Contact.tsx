@@ -9,6 +9,7 @@ import * as z from "zod";
 import { useToast } from "@/hooks/use-toast";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import profileImage from "@/assets/mf-davidson-profile.jpg";
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -42,6 +43,11 @@ const Contact = () => {
     setIsSubmitting(false);
   };
   return <div className="min-h-screen bg-background">
+      <SEO 
+        title="Contact M F Davidson - Get in Touch"
+        description="Contact Mark F. Davidson for inquiries, collaborations, or questions. Reach out via contact form or social media. Los Angeles-based scholar and writer."
+        keywords="contact Mark Davidson, inquiry, get in touch, collaborate, M F Davidson contact"
+      />
       <Header />
       
       <main className="container mx-auto px-6 py-16">

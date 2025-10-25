@@ -1,9 +1,15 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 
 const Privacy = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO 
+        title="Privacy Policy - M F Davidson"
+        description="Privacy policy for mfdavidson.com. Learn how we collect, use, and protect your personal information when you visit our website."
+        keywords="privacy policy, data protection, personal information, mfdavidson privacy"
+      />
       <Header />
       <main className="container mx-auto px-6 py-16">
         <div className="max-w-4xl mx-auto">

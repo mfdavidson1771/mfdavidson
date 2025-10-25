@@ -20,7 +20,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/about" element={<HostGate allow={['mfdavidson.lovable.app']} fallback={<NotFound />}><About /></HostGate>} />
+          <Route path="/about" element={<HostGate allow={['mfdavidson.lovable.app', 'mfdavidson.com', 'www.mfdavidson.com']} fallback={<NotFound />}><About /></HostGate>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
