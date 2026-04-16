@@ -16,7 +16,7 @@ const SEO = ({
   description, 
   keywords,
   canonical,
-  ogImage = '/lovable-uploads/63f573ca-0ca4-42a6-a1fa-9ad6a1ee0b4d.png',
+  ogImage = '/og-image.jpg',
   author = 'M F Davidson',
   type = 'website'
 }: SEOProps) => {
