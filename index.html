@@ -6,15 +6,44 @@
     <title>M F Davidson</title>
     <meta name="description" content="Essays, notes, and reflections by M F Davidson." />
     <meta name="author" content="M F Davidson" />
-    
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://mfdavidson.com/" />
+
+    <!-- Open Graph -->
     <meta property="og:title" content="M F Davidson" />
     <meta property="og:description" content="Essays, notes, and reflections by M F Davidson." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mfdavidson.com" />
+    <meta property="og:image" content="https://mfdavidson.com/og-image.jpg" />
+    <meta property="og:image:width" content="1560" />
+    <meta property="og:image:height" content="780" />
+    <meta property="og:image:alt" content="M F Davidson — Essays, notes, and reflections" />
+    <meta property="og:site_name" content="M F Davidson" />
+    <meta property="og:locale" content="en_US" />
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="M F Davidson" />
     <meta name="twitter:description" content="Essays, notes, and reflections by M F Davidson." />
+    <meta name="twitter:image" content="https://mfdavidson.com/og-image.jpg" />
+    <meta name="twitter:image:alt" content="M F Davidson — Essays, notes, and reflections" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "M F Davidson",
+      "url": "https://mfdavidson.com",
+      "description": "Essays, notes, and reflections by M F Davidson.",
+      "image": "https://mfdavidson.com/og-image.jpg",
+      "sameAs": [],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://mfdavidson.com"
+      }
+    }
+    </script>
 
     <link rel="icon" href="/lovable-uploads/63f573ca-0ca4-42a6-a1fa-9ad6a1ee0b4d.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +52,13 @@
   </head>
 
   <body>
+    <noscript>
+      <div style="padding: 2rem; font-family: Georgia, serif; max-width: 600px; margin: 0 auto; text-align: center;">
+        <h1>M F Davidson</h1>
+        <p>Essays, notes, and reflections by M F Davidson.</p>
+        <p>This site requires JavaScript to function. Please enable JavaScript in your browser settings.</p>
+      </div>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
