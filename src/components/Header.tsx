@@ -17,7 +17,7 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <a 
-            href="https://drive.google.com/file/d/1GBNk4-Rd90_lIkcgLZKdu4qkG3Ji4kyD/view?usp=sharing" 
+            href="https://drive.google.com/file/d/100KsuIqNxjIlNXK-8OlakUMhGrSkWRf3/view?usp=sharing" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-foreground hover:text-primary transition-colors"
@@ -57,7 +57,7 @@ const Header = () => {
         <div className="md:hidden border-t border-border bg-background/95 backdrop-blur">
           <nav className="container mx-auto px-6 py-4 space-y-4">
             <a 
-              href="https://drive.google.com/file/d/1GBNk4-Rd90_lIkcgLZKdu4qkG3Ji4kyD/view?usp=sharing" 
+              href="https://drive.google.com/file/d/100KsuIqNxjIlNXK-8OlakUMhGrSkWRf3/view?usp=sharing" 
               target="_blank"
               rel="noopener noreferrer"
               className="block text-sm font-medium text-foreground hover:text-primary transition-colors"
